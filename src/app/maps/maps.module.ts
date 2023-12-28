@@ -7,12 +7,14 @@ import { MapsLayoutComponent } from './layout/maps-layout/maps-layout.component'
 import { MarkersPageComponent } from './pages/markers-page/markers-page.component';
 import { PropertiesPageComponent } from './pages/properties-page/properties-page.component';
 import { ZoomRangePageComponent } from './pages/zoom-range-page/zoom-range-page.component';
+import { SideMenuComponent } from './components/side-menu/side-menu.component';
 
 
 @NgModule({
   declarations: [
     MiniMapComponent,
     MapsLayoutComponent,
+    SideMenuComponent,
     MarkersPageComponent,
     PropertiesPageComponent,
     ZoomRangePageComponent
