@@ -6,7 +6,7 @@ import { LngLat, Map } from 'mapbox-gl';
   templateUrl: './zoom-range-page.component.html',
   styleUrls: ['./zoom-range-page.component.css']
 })
-export class ZoomRangePageComponent {
+export class ZoomRangePageComponent implements AfterViewInit, OnDestroy {
 
   @ViewChild('map') divMap?: ElementRef;
 
